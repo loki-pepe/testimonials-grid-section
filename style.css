@@ -125,8 +125,6 @@ img {
 
 main {
     display: grid;
-    justify-content: center;
-    align-content: center;
     gap: 24px;
     grid-template-columns: minmax(17rem, 1fr);
 }
