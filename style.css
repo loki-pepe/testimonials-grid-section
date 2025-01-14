@@ -165,7 +165,7 @@ img {
     }
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 60rem) {
     body {
         grid-template-columns: repeat(4, minmax(auto, 15.9375rem));
         grid-template-areas:
