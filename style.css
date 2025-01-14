@@ -90,8 +90,6 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
-    gap: 24px;
-    grid-template-columns: minmax(17rem, 1fr);
 }
 
 .credentials {
@@ -125,6 +123,14 @@ img {
     border-radius: 50%;
 }
 
+main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 24px;
+    grid-template-columns: minmax(17rem, 1fr);
+}
+
 .name {
     grid-area: name;
 }
@@ -135,7 +141,7 @@ img {
 }
 
 @media (min-width: 37.5rem) {
-    body {
+    main {
         column-gap: 30px;
         grid-template-columns: repeat(3, minmax(auto, 15.9375rem));
         grid-template-areas:
@@ -166,7 +172,7 @@ img {
 }
 
 @media (min-width: 60rem) {
-    body {
+    main {
         grid-template-columns: repeat(4, minmax(auto, 15.9375rem));
         grid-template-areas:
         "daniel daniel jonathan kira"
